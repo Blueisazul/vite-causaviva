@@ -1,5 +1,5 @@
 <template>
     <div>
-        <p>Hello Tailwind CSS</p>
+        <p>Hello Tailwind CSSs</p>
     </div>
 </template>
