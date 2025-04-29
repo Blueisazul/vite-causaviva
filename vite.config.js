@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import ghPages from 'vite-plugin-gh-pages' // <<---- Importa bien el plugin
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [vue(), ghPages()],
-  base: "vite-causaviva"
+  plugins: [vue(), ghPages()], // <<---- Ahora sí puedes usar ghPages()
+  base: '/vite-causaviva/',     // <<---- Corrige también base
 })
