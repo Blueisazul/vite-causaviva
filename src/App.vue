@@ -16,7 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
-  <HelloTailwind />
+  <HelloTailwind msg="Taiel"/>
 </template>
 
 <style scoped>
